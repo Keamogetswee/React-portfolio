@@ -44,15 +44,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Full stack Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Frontend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Quality Assurance",
       icon: creator,
     },
   ];
