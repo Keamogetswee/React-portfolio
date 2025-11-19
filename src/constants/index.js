@@ -17,9 +17,9 @@ import {
     graphql,
     next176,
     oystar,
-    carrent,
-    jobit,
-    tripguide,
+    movieapp,
+    weather,
+    recipe,
     threejs,
   } from "../assets";
   
@@ -141,87 +141,88 @@ import {
     },
   ];
   
-  const testimonials = [
+   const highlights = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      title: "UI-Focused Developer",
+      description:
+        "I love building clean, modern interfaces and crafting user experiences that feel intuitive and smooth.",
+      icon: "⭐",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      title: "Fast Learner",
+      description:
+        "I pick up new technologies quickly and enjoy experimenting with frameworks, animations, and tools.",
+      icon: "⚡",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      title: "Strong Problem Solver",
+      description:
+        "I enjoy breaking down complex problems and turning them into simple, functional solutions.",
+      icon: "🧠",
+    },
+    {
+      title: "Detail-Oriented",
+      description:
+        "Pixel-perfect styling, clear code structure, and thoughtful UI flow matter to me.",
+      icon: "🎯",
     },
   ];
   
+  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movie Explorer Watchlist",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web application that allows users to search for movies, view details, and manage a personalized watchlist. Built with React and integrated with the IMDB API.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "html",
+          color: "orange-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: movieapp,
+      source_code_link: "https://github.com/Keamogetswee/movie-explorer-watchlist",
     },
     {
-      name: "Job IT",
+      name: "Weather Data",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed to help you manage, process, and analyze historical weather data. It includes functionality to read weather data from a CSV file, process and categorize the data, store it in a MySQL database, retrieve data based on specific criteria, and export filtered data to a CSV file.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "pip",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mysql",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: weather,
+      source_code_link: "https://github.com/Keamogetswee/Weather-Data",
     },
     {
-      name: "Trip Guide",
+      name: "Recipe App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A web application that allows users to browse, search, and save recipes. Built with React and Claude API for backend services, featuring user authentication and a responsive design.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "api",
           color: "green-text-gradient",
         },
         {
@@ -229,9 +230,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: recipe,
+      source_code_link: "https://github.com/Keamogetswee/react-state",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, highlights, projects };

@@ -25,9 +25,9 @@ import next176 from "./company/next176.png";
 import oystar from "./company/oystar.png";
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import movieapp from "./movieapp.png";
+import weather from "./weather.jpeg";
+import recipe from "./recipe.png";
 
 export {
   logo,
@@ -53,7 +53,7 @@ export {
   threejs,
   next176,
   oystar,
-  carrent,
-  jobit,
-  tripguide,
+  movieapp,
+  weather,
+  recipe,
 };
