@@ -8,13 +8,13 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    python,
     tailwind,
     nodejs,
-    mongodb,
+    mysql,
     git,
     figma,
-    docker,
+    graphql,
     next176,
     oystar,
     carrent,
@@ -79,8 +79,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Tailwind CSS",
@@ -91,8 +91,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "Three JS",
@@ -107,8 +107,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "GraphQL",
+      icon: graphql,
     },
   ];
   
