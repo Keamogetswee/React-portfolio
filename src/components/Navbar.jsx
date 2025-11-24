@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Kea &nbsp;
+            K &nbsp;
             <span className='sm:block hidden'> | Moseki</span>
           </p>
         </Link>
@@ -59,9 +59,16 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
+              
             </li>
           ))}
         </ul>
+        <a
+          href="#contact"
+          className="mt-2 inline-block px-8 py-3 bg-purple-600 text-white font-semibold rounded-lg shadow-md hover:bg-purple-700 transition">
+          Hire Me
+        </a>
+
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
